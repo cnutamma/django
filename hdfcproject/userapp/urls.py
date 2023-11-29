@@ -1,9 +1,8 @@
-# userapp/urls.py
 from django.urls import path
-from .views import home, products, contact
+from .views import index, about, contact
 
 urlpatterns = [
-    path('', home, name='home'),
-    path('products/', products, name='products'),
+    path('index/', index, name='index'),
+    path('about/', about, name='about'),
     path('contact/', contact, name='contact'),
 ]
