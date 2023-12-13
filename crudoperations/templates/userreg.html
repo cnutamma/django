@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+<form name="registration form" method="post" action="../insertuser/">
+    {% csrf_token %}
+<pre>
+    <h1>Register Form</h1>
+    ID    : <input type="text" name= "tid" value="" width="200"><br>
+    Name  : <input type="text" name="tname" value="" width="200"><br>
+    Sal   : <input type="text" name="tsal" value="" width="200"><br>
+
+
+    
+    <input type="submit" name="reg" value="click to register" width="300" height="100">
+
+</pre>
+</form>
+</center>
+    
+</body>
+</html>
